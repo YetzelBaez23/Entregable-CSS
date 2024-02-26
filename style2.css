@@ -1,0 +1,30 @@
+*{  /* tamaño y tipo de fuente.*/
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{ /*color parrafos: #555;*/
+    color: #555;
+}
+
+#primero p{ /*los párrafos contenidos en #primero color: #369; */
+    color: #369;
+}
+
+a{  /*enlaces de la página color: #C30;*/
+    
+    color: #c30;
+}
+#primero em{  /* elementos <em> contenidos en #primero color: #0000BB; background-color: #FFFFCC;*/
+    color: #0000BB;
+    background-color: #FFFFCC;
+}
+
+em.especial{ /* elementos <em>  clase "especial" de la página color: #FFFF00; color background: #000000;*/
+    color: #FFFF00;
+    background: #000000;
+}
+
+#segundo span{   /*elementos <span>  clase "normal"  font-weight: bold;*/ 
+    font-weight: bold;
+}
